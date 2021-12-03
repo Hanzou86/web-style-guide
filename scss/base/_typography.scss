@@ -5,7 +5,7 @@
 
 * {
     font-family: 'Lato', sans-serif;
-    color: #777;
+    color: $main-txt;
     box-sizing: border-box;
   }
   
@@ -28,7 +28,7 @@
   
   .headline-secondary {
     font-weight: 300;
-    color: #777;
+    color: $main-txt;
   }
   
   .link {
