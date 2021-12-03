@@ -10,8 +10,14 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    &:hover {
+      background-color: lighten(15%);
+      transition: .7s;
+    }
   }
   
+
+
   .default {
     background-color: #51ddfc;
   }
