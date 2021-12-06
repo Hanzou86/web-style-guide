@@ -10,30 +10,46 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-    &:hover {
-      // background-color: lighten(15%);
-      transition: .7s;
-    }
   }
   
 
 
   .default {
     background-color: #51ddfc;
+    &:hover {
+      background-color: lighten(#51ddfc, 15%);
+      transition: .7s;
+    }
   }
   
   .error {
     background-color: #e4757a;
+    &:hover {
+      background-color: lighten(#e4757a, 15%);
+      transition: .7s;
+    }
   }
   
   .info {
     background-color: $theme-1;
+    &:hover {
+      background-color: lighten($theme-1, 15%);
+      transition: .7s;
+    }
   }
   
   .success {
     background-color: #63cc82;
+    &:hover {
+      background-color: lighten(#63cc82, 15%);
+      transition: .7s;
+    }
   }
   
   .warning {
     background-color: $theme-2;
+    &:hover {
+      background-color: lighten($theme-2, 15%);
+      transition: .7s;
+    }
   }
